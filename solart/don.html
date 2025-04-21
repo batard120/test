@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faire un Don – SolArt Innovations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body.page-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f5fdf6;
+      color: #2f4f4f;
+      line-height: 1.6;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .topbar {
+      background-color: #c6e9d8;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .topbar h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    header {
+      background-color: #e0f4e9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .don-container {
+      max-width: 700px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .compteur {
+      margin-bottom: 20px;
+    }
+
+    .compteur h3 {
+      font-size: 1.4rem;
+      margin: 10px 0;
+    }
+
+    .jauge {
+      background-color: #c6e9d8;
+      border-radius: 30px;
+      overflow: hidden;
+      height: 20px;
+      margin: 20px 0;
+    }
+
+    .remplissage {
+      background-color: #4caf50;
+      height: 100%;
+      width: 42.7%; /* Faux pour simuler une collecte en cours */
+      transition: width 0.5s;
+    }
+
+    .btn {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+    }
+
+    footer {
+      background-color: #e0f4e9;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body class="page-container">
+  <div class="topbar">
+    <h1>SolArt Innovations</h1>
+  </div>
+
+  <main>
+    <header>
+      <h2>Soutenez le futur de l’énergie verte</h2>
+    </header>
+
+    <div class="don-container">
+      <div class="compteur">
+        <h3><strong>23 487 €</strong> collectés</h3>
+        <h3><strong>1 257</strong> contributeurs</h3>
+      </div>
+      
+      <div class="jauge">
+        <div class="remplissage"></div>
+      </div>
+      <p>Objectif : 55 000 €</p>
+
+      <a href="https://donate.stripe.com/5kAcQR3d02Hn9pKcMO" class="btn" target="_blank">Contribuer maintenant</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SolArt Innovations — Tous droits réservés
+  </footer>
+</body>
+</html>

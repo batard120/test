@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolArt Innovations - Peinture Photovoltaïque</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f5fdf6;
+      color: #2f4f4f;
+      line-height: 1.6;
+    }
+
+    .topbar {
+      background-color: #c6e9d8;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .topbar h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    header {
+      background-color: #e0f4e9;
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+
+    header h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+      justify-content: center;
+    }
+
+    .feature {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .comparaison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+    }
+
+    .comparaison-table th, .comparaison-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #e0f4e9;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .table-container {
+        overflow-x: auto;  /* Permet le défilement horizontal */
+        -webkit-overflow-scrolling: touch; /* Améliore le défilement sur iOS */
+      }
+
+      table {
+        width: 100%; /* S'assure que le tableau prend toute la largeur disponible */
+        table-layout: auto; /* Laisse le tableau s'ajuster selon son contenu */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <h1>SolArt Innovations</h1>
+  </div>
+
+  <header>
+    <h2><em>"Peignez l’avenir, éclairez le monde !"</em></h2>
+    <a href="don.html" class="btn" target="_blank">Soutenir le projet</a>
+  </header>
+
+  <section>
+    <h2>Découvrez SolShine</h2>
+    <br>
+    <p>SolShine est une peinture révolutionnaire qui transforme toute surface peinte en source d’énergie solaire. Grâce à notre formule exclusive <strong>PhotoLuxe Compound</strong>, vous pouvez produire de l’électricité directement depuis vos murs !</p>
+  </section>
+
+  <section>
+    <h2>Comment ça marche ?</h2>
+    <br>
+    <ul>
+      <li><strong>SolarBase</strong> : une sous-couche conductrice contenant des micro-conducteurs inspirés du graphène, qui transporte les électrons.</li>
+      <br>
+      <li><strong>LumiCoat</strong> : une couche colorée intégrant le PhotoLuxe Compound, qui capte la lumière solaire pour produire jusqu’à 5 W/m² avec une efficacité de 15 %.</li>
+    </ul>
+    <p>L’électricité est ensuite collectée via des bandes métalliques discrètes, puis dirigée vers un module de conversion mural (10x10 cm) pour alimenter vos appareils ou votre réseau domestique. Installation facile : 5 minutes pour le module, 30 minutes avec un électricien si connecté au réseau.</p>
+    <p>Pourquoi deux couches ? Parce que la séparation entre production (LumiCoat) et transport (SolarBase) permet de maximiser la performance et la durabilité, comme dans les panneaux multicouches.</p>
+    <br>
+    <p><strong>Sécurité :</strong> courant faible, matériaux non toxiques, normes en cours de certification.</p>
+    <br>
+    <p><strong>Durée de vie :</strong> estimée à 10 ans, équivalente à une peinture haut de gamme.</p>
+  </section>
+
+  <section>
+    <h2>Pourquoi choisir SolShine ?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Facile à appliquer</h3>
+        <p>Peignez vos murs comme d’habitude, tout en générant de l’énergie.</p>
+      </div>
+      <div class="feature">
+        <h3>Esthétique et discrète</h3>
+        <p>Disponible en plusieurs coloris : blanc, bleu, terracotta.</p>
+      </div>
+      <div class="feature">
+        <h3>Économie d’espace</h3>
+        <p>Aucune surface supplémentaire nécessaire, contrairement aux panneaux solaires.</p>
+      </div>
+      <div class="feature">
+        <h3>Accessible à tous</h3>
+        <p>Seulement 10 € / m². Rentable, pratique, écologique.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Comparaison avec d'autres solutions</h2>
+    <div class="table-container">
+      <table class="comparaison-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>SolShine</th>
+            <th>Panneaux solaires</th>
+            <th>Éoliennes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rendement</td>
+            <td>15 % (5 W/m²)</td>
+            <td>20-25 % (200-250 W/m²)</td>
+            <td>60-90 % (900 kWh/mois)</td>
+          </tr>
+          <tr>
+            <td>Espace requis</td>
+            <td>0 m²</td>
+            <td>150-200 m²</td>
+            <td>0,5-1 hectare</td>
+          </tr>
+          <tr>
+            <td>Coût</td>
+            <td>10 €/m²</td>
+            <td>15 000 €</td>
+            <td>14 700-75 000 €</td>
+          </tr>
+          <tr>
+            <td>Pollution</td>
+            <td>20 g CO₂/kWh (80 % recyclable)</td>
+            <td>6–50 g CO₂/kWh</td>
+            <td>4–34 g CO₂/kWh (impact aviaire)</td>
+          </tr>
+          <tr>
+            <td>Esthétique</td>
+            <td>Peinture colorée intégrée</td>
+            <td>Inesthétique</td>
+            <td>Bruit et impact visuel</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Investissez dans l’avenir</h2>
+    <p>SolArt Innovations repense la manière dont nous produisons l’énergie. Grâce à SolShine, chaque mur peut devenir une source d’électricité propre.</p>
+    <p style="margin-top: 20px;">
+      <a href="don.html" class="btn" target="_blank">Participer à la levée de fonds</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 SolArt Innovations — Tous droits réservés
+  </footer>
+</body>
+</html>
